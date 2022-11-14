@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400italic">
 <link rel="stylesheet" href="css/background.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Site CSS -->
 <link rel="stylesheet" href="style.css">
 <!-- Responsive CSS -->
@@ -78,9 +79,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -101,7 +102,7 @@
           <b>C/C++ programmer</b>
           <b>Web developer</b>
           <b>DevOps engineer</b>
-          <b>White hacker</b>
+          <b>Game developer</b>
           <b>Electrical engineer</b>
           <b>42 Student</b>
         </span>
@@ -238,17 +239,17 @@
   <div id="portfolio" class="section lb">
   <div class="container">
       <div class="section-title text-left">
-        <h3>Projects</h3>
-        <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+        <h3>Latest Projects</h3>
+        <!-- <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p> -->
       </div><!-- end title -->
 
       <div class="gallery-menu row">
         <div class="col-md-12">
           <div class="button-group filter-button-group text-left">
             <button class="active" data-filter="*">All</button>
-            <button data-filter=".gal_a">Web Development</button>
-            <button data-filter=".gal_b">Creative Design</button>
-            <button data-filter=".gal_c">Graphic Design</button>
+            <button data-filter=".gal_a">data structures & algorithms</button>
+            <button data-filter=".gal_b">Game Development</button>
+            <button data-filter=".gal_c">multi-threading & multi-processing</button>
           </div>
         </div>
       </div>
@@ -256,39 +257,19 @@
       <div class="gallery-list row">
         <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
           <div class="gallery-single fix">
-            <img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image">
+            <img src="uploads/cub3d.jpg" class="img-fluid" alt="Image">
             <div class="img-overlay">
-              <a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+              <a href="uploads/cub3d.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
                   class="fa fa-picture-o"></i></a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">  
           <div class="gallery-single fix">
-            <img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image">
+            <img src="uploads/ft_containers.jpg" class="img-fluid" alt="Image">
             <div class="img-overlay">
-              <a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
-                  class="fa fa-picture-o"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
-          <div class="gallery-single fix">
-            <img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
-            <div class="img-overlay">
-              <a href="uploads/gallery_img-03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
-                  class="fa fa-picture-o"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
-          <div class="gallery-single fix">
-            <img src="uploads/gallery_img-04.jpg" class="img-fluid" alt="Image">
-            <div class="img-overlay">
-              <a href="uploads/gallery_img-04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+              <a href="uploads/ft_containers.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
                   class="fa fa-picture-o"></i></a>
             </div>
           </div>
@@ -296,9 +277,29 @@
 
         <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
           <div class="gallery-single fix">
-            <img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image">
+            <img src="uploads/minishell.jpg" class="img-fluid" alt="Image">
             <div class="img-overlay">
-              <a href="uploads/gallery_img-05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+              <a href="uploads/minishell.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                  class="fa fa-picture-o"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-grid gal_b">
+          <div class="gallery-single fix">
+            <img src="uploads/so_long.jpg" class="img-fluid" alt="Image">
+            <div class="img-overlay">
+              <a href="uploads/so_long.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+                  class="fa fa-picture-o"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+          <div class="gallery-single fix">
+            <img src="uploads/webserver.jpg" class="img-fluid" alt="Image">
+            <div class="img-overlay">
+              <a href="uploads/webserver.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
                   class="fa fa-picture-o"></i></a>
             </div>
           </div>
@@ -306,9 +307,9 @@
 
         <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
           <div class="gallery-single fix">
-            <img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image">
+            <img src="uploads/philosophers.jpg" class="img-fluid" alt="Image">
             <div class="img-overlay">
-              <a href="uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
+              <a href="uploads/philosophers.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
                   class="fa fa-picture-o"></i></a>
             </div>
           </div>
@@ -322,7 +323,7 @@
     <div class="container">
       <div class="section-title text-left">
         <h3>Testimonials</h3>
-        <p>We thanks for all our awesome testimonials! There are hundreds of our happy customers! </p>
+        <!-- <p>Thanks for all our awesome testimonials! There are hundreds of our happy customers! </p> -->
       </div><!-- end title -->
 
       <div class="row">
@@ -331,12 +332,14 @@
             <div class="testimonial clearfix">
               <div class="desc">
                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and
-                  experienced & professional team.</p>
+                <p class="lead">He got my project on time.
+                  He got both skills and personality,
+                  which makes it easier to communicate and get the desired results.
+                </p>
               </div>
               <div class="testi-meta">
-                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
-                <h4>James Fernando <small>- Manager of Racer</small></h4>
+                <img src="uploads/ytouab.jpeg" alt="" class="img-fluid alignleft">
+                <h4>Yassir Touab <small>- Entrepreneur</small></h4>
               </div>
               <!-- end testi-meta -->
             </div>
@@ -345,12 +348,12 @@
             <div class="testimonial clearfix">
               <div class="desc">
                 <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was
-                  born and I will give you completed.</p>
+                <p class="lead">The project was delivered successfully.
+                  Thank you for the support and the great solutions you suggest</p>
               </div>
               <div class="testi-meta">
-                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
-                <h4>Jacques Philips <small>- Designer</small></h4>
+                <img src="uploads/dale.jpeg" alt="" class="img-fluid alignleft">
+                <h4>Dale Furneaux <small>- Developer/Ethical hacker</small></h4>
               </div>
               <!-- end testi-meta -->
             </div>
@@ -359,12 +362,12 @@
             <div class="testimonial clearfix">
               <div class="desc">
                 <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself,
-                  because it is very pursue pleasure. </p>
+                <p class="lead">Great Partner! He did a great job on planning and managing the whole project,
+                  and collecting the needed resources.</p>
               </div>
               <div class="testi-meta">
-                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
-                <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                <img src="uploads/oal-tena.jpeg" alt="" class="img-fluid alignleft">
+                <h4>Obaid Al-Tunaigy <small>- CubeTech Founder</small></h4>
               </div>
               <!-- end testi-meta -->
             </div>
@@ -372,12 +375,14 @@
             <div class="testimonial clearfix">
               <div class="desc">
                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and
-                  experienced & professional team.</p>
+                <p class="lead">He got my project on time.
+                  He got both skills and personality,
+                  which makes it easier to communicate and get the desired results.
+                </p>
               </div>
               <div class="testi-meta">
-                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
-                <h4>James Fernando <small>- Manager of Racer</small></h4>
+                <img src="uploads/ytouab.jpeg" alt="" class="img-fluid alignleft">
+                <h4>Yassir Touab <small>- Entrepreneur</small></h4>
               </div>
               <!-- end testi-meta -->
             </div>
@@ -386,12 +391,12 @@
             <div class="testimonial clearfix">
               <div class="desc">
                 <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was
-                  born and I will give you completed.</p>
+                <p class="lead">The project was delivered successfully.
+                  Thank you for the support and the great solutions you suggest</p>
               </div>
               <div class="testi-meta">
-                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
-                <h4>Jacques Philips <small>- Designer</small></h4>
+                <img src="uploads/dale.jpeg" alt="" class="img-fluid alignleft">
+                <h4>Dale Furneaux <small>- Developer/Ethical hacker</small></h4>
               </div>
               <!-- end testi-meta -->
             </div>
@@ -400,12 +405,12 @@
             <div class="testimonial clearfix">
               <div class="desc">
                 <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself,
-                  because it is very pursue pleasure. </p>
+                <p class="lead">Great Partner! He did a great job on planning and managing the whole project,
+                  and collecting the needed resources.</p>
               </div>
               <div class="testi-meta">
-                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
-                <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                <img src="uploads/oal-tena.jpeg" alt="" class="img-fluid alignleft">
+                <h4>Obaid Al-Tunaigy <small>- CubeTech Founder</small></h4>
               </div>
               <!-- end testi-meta -->
             </div><!-- end testimonial -->
@@ -415,12 +420,12 @@
     </div><!-- end container -->
   </div><!-- end section -->
 
-  <div id="blog" class="section lb">
+  <!-- <div id="blog" class="section lb">
     <div class="container">
       <div class="section-title text-left">
         <h3>Blog</h3>
         <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-      </div><!-- end title -->
+      </div>
 
       <div class="row">
         <div class="col-md-4 col-sm-6 col-lg-4">
@@ -489,7 +494,7 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
   <div id="contact" class="section db">
     <div class="container">
@@ -547,11 +552,17 @@
       <div class="footer-distributed">
         <div class="footer-left">
           <p class="footer-links">
-            <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+            <a href="https://github.com/basam1881">
+              <img style="max-height: 2rem;" src="uploads/github.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/bassam-albahal/">
+              <img style="max-height: 2rem;" src="uploads/linkedin.png" alt="" />
+            </a>
+            <!-- <a class="nav-link js-scroll-trigger" href="#home">Home</a>
             <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
             <a class="nav-link js-scroll-trigger" href="#services">Pricing</a>
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a> -->
           </p>
         </div>
       </div>
